@@ -1,0 +1,17 @@
+earthengine-api
+folium
+geopandas
+jupyter
+lightgbm
+matplotlib
+numpy
+opencv-python-headless
+osmnx
+pandas
+requests
+scikit-learn
+scipy
+seaborn
+shapely
+tqdm
+xgboost

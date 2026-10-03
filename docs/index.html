@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green View Index, Chiang Mai University</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 42rem; margin: 2.5rem auto; padding: 0 1.25rem; color: #1c2833; line-height: 1.5; }
+    a { color: #0e6655; }
+    li { margin: 0.4rem 0; }
+    img { max-width: 100%; height: auto; margin: 1rem 0; }
+    code { font-family: ui-monospace, monospace; font-size: 0.95em; }
+  </style>
+</head>
+<body>
+  <h1>Green View Index, Chiang Mai University</h1>
+  <p>Street-level greenery from Google Street View, and a Sentinel-2 model that estimates it on a 10&nbsp;m grid. These pages use CartoDB, so they open without an API key. Each map has a layer control: turn a layer off to see the streets underneath.</p>
+  <ul>
+    <li><a href="gvi_map.html">Measured GVI</a> at the 1,610 Street View samples</li>
+    <li><a href="sample_locations.html">Sample locations</a> and the pedestrian network</li>
+    <li><a href="predicted_gvi_map.html">Predicted GVI</a> for 20,455 campus squares</li>
+  </ul>
+  <p>The numeric prediction table is <a href="campus_gvi_prediction.csv"><code>campus_gvi_prediction.csv</code></a>. Model tables are in the saved outputs of <code>gvi_fromgsv.ipynb</code>.</p>
+  <h2>GVI and Sentinel-2 bands</h2>
+  <img src="correlation_gvi.png" alt="Correlation of GVI with Sentinel-2 bands">
+  <h2>Features added one at a time</h2>
+  <img src="ablation_curve.png" alt="Cross-validated R squared as features are added">
+</body>
+</html>

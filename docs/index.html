@@ -21,6 +21,10 @@
     <li><a href="predicted_gvi_map.html">Predicted GVI</a> for 20,455 campus squares</li>
   </ul>
   <p>The numeric prediction table is <a href="campus_gvi_prediction.csv"><code>campus_gvi_prediction.csv</code></a>. Model tables are in the saved outputs of <code>gvi_fromgsv.ipynb</code>.</p>
+  <h2>Phone photos versus the model</h2>
+  <p>Fifty smartphone locations, each matched to the nearest 10 m prediction. The line of best fit rises with the phone measurement. The 1:1 line shows that the model compresses the range: phone GVI runs from about 10% to 84%, while the predictions stay near 30–50%.</p>
+  <img src="ground_truth_scatter.png" alt="Scatter plot of smartphone GVI against predicted GVI">
+  <p>The 50 pairs are in <a href="ground_truth_vs_predicted.csv"><code>ground_truth_vs_predicted.csv</code></a>.</p>
   <h2>GVI and Sentinel-2 bands</h2>
   <img src="correlation_gvi.png" alt="Correlation of GVI with Sentinel-2 bands">
   <h2>Features added one at a time</h2>

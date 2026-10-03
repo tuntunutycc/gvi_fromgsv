@@ -24,3 +24,9 @@ export MAPBOX_ACCESS_TOKEN="your-token"        # optional; otherwise maps use Ca
 ```
 
 Open `gvi_fromgsv.ipynb`. Image scoring, including SegFormer, needs the downloaded photos. The modeling sections read the CSV tables in `data/`, which are not in this repository.
+
+## Smartphone photos
+
+The 220 ground-truth phone photos are not stored in this repository. Reviewers can open them here:
+
+[Taken — Google Drive](https://drive.google.com/drive/folders/1j1rRkgSTc4mlZ8Q3b6BDDwZqmTCuD82w?usp=sharing)

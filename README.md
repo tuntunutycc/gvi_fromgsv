@@ -11,7 +11,7 @@ Open the site, not the files on github.com. GitHub shows those HTML files as sou
 - [Sample locations](https://tuntunutycc.github.io/gvi_fromgsv/sample_locations.html)
 - [Predicted GVI](https://tuntunutycc.github.io/gvi_fromgsv/predicted_gvi_map.html)
 
-The maps use CartoDB, so they contain no API key. Each map has a layer control: turn a layer off to see the streets underneath.
+The maps use Mapbox Streets. Each map has a layer control: turn a layer off to see the streets underneath. The token in those pages is a public Mapbox token; restrict it to `https://tuntunutycc.github.io/*` in the Mapbox account so it only works on this site.
 
 `gvi_fromgsv.ipynb` keeps the model comparison in its saved outputs. `docs/campus_gvi_prediction.csv` is the campus prediction table.
 

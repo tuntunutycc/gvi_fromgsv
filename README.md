@@ -4,11 +4,14 @@ Street-level greenery for Chiang Mai University, then a Sentinel-2 model that fi
 
 ## Review the results
 
-The pages in [`docs/`](docs/index.html) are the maps and figures, drawn on CartoDB so they contain no API key. On GitHub Pages they open in the browser:
+Open the site, not the files on github.com. GitHub shows those HTML files as source code. The interactive pages are here:
 
-- [Measured GVI](docs/gvi_map.html)
-- [Sample locations](docs/sample_locations.html)
-- [Predicted GVI](docs/predicted_gvi_map.html)
+- [Overview](https://tuntunutycc.github.io/gvi_fromgsv/)
+- [Measured GVI](https://tuntunutycc.github.io/gvi_fromgsv/gvi_map.html)
+- [Sample locations](https://tuntunutycc.github.io/gvi_fromgsv/sample_locations.html)
+- [Predicted GVI](https://tuntunutycc.github.io/gvi_fromgsv/predicted_gvi_map.html)
+
+The maps use CartoDB, so they contain no API key. Each map has a layer control: turn a layer off to see the streets underneath.
 
 `gvi_fromgsv.ipynb` keeps the model comparison in its saved outputs. `docs/campus_gvi_prediction.csv` is the campus prediction table.
 
